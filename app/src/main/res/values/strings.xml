@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">SlidingMenu</string>
+    <string-array name="menu_zh">
+        <item>好友</item>
+        <item>乐律</item>
+        <item>社区</item>
+        <item>订阅</item>
+        <item>设置</item>
+    </string-array>
+    <string-array name="menu_en">
+        <item>FRIENDS</item>
+        <item>MUSIC</item>
+        <item>COMMUNITY</item>
+        <item>SUBSCRIPTION</item>
+        <item>SETTINGS</item>
+    </string-array>
+</resources>
