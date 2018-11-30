@@ -54,25 +54,7 @@ public class MenuFragment extends Fragment {
                 MainActivity activity = (MainActivity) getActivity();
                 DrawerLayout mDrawerLayout = (DrawerLayout) activity.findViewById(R.id.drawer_layout);
                 mDrawerLayout.closeDrawer(Gravity.START);
-                switch (position) {
-                    case 0:
-                        activity.replaceFragment(new TabFragment1());
-                        break;
-                    case 1:
-                        activity.replaceFragment(new TabFragment2());
-                        break;
-                    case 2:
-                        activity.replaceFragment(new TabFragment3());
-                        break;
-                    case 3:
-                        activity.replaceFragment(new TabFragment4());
-                        break;
-                    case 4:
-                        activity.replaceFragment(new TabFragment5());
-                        break;
-                    default:
-                        break;
-                }
+                activity.switchFragment(position);
             }
         });
 
